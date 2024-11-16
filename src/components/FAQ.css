@@ -1,0 +1,33 @@
+.faq-section {
+    padding: 50px 20px;
+    background-color: var(--color-background);
+    color: var(--color-text);
+  }
+  
+  .faq-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .MuiAccordion-root {
+    margin-bottom: 10px;
+    background-color: var(--color-secondary-light);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .MuiAccordionSummary-root {
+    font-weight: bold;
+    color: var(--color-primary);
+  }
+  
+  .MuiAccordionDetails-root {
+    color: var(--color-text);
+  }
+  

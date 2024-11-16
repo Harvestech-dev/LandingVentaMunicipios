@@ -1,0 +1,24 @@
+[
+      {
+        "icon": "StarPurple500RoundedIcon",
+        "title": "Calidad",
+        "description": "Ofrecemos servicios con estándares de calidad garantizados, asegurando el mejor desempeño para tu sitio web."
+      },
+      {
+        "icon": "GppGoodRoundedIcon",
+        "title": "Seguridad",
+        "description": "Protege la información y los datos de tu comunidad con nuestras herramientas de seguridad de última generación."
+      },
+      {
+        "icon": "TrendingUpRoundedIcon",
+        "title": "Escalabilidad",
+        "description": "Nuestra infraestructura te permite escalar sin preocupaciones, con recursos que se ajustan al crecimiento de tu sitio."
+      },
+      {
+        "icon": "FlashOnRoundedIcon",
+        "title": "Rendimiento",
+        "description": "Optimización continua para asegurar que tu sitio web funcione a la máxima velocidad, incluso con tráfico elevado."
+      }
+    ]
+  
+  

@@ -1,0 +1,43 @@
+[
+      {
+        "name": "Esencial",
+        "price": "Gratis",
+        "features": [
+          "Inicio básico",
+          "Contacto básico",
+          "Sin noticias",
+          "1 Micrositio"
+        ]
+      },
+      {
+        "name": "Conexión",
+        "price": "$49/mes",
+        "features": [
+          "Inicio avanzado",
+          "Noticias",
+          "Micrositios limitados",
+          "Formulario avanzado"
+        ]
+      },
+      {
+        "name": "Gestión",
+        "price": "$99/mes",
+        "features": [
+          "Todo en Conexión",
+          "Gestión actual",
+          "Micrositios ampliados",
+          "Funcionalidad 4"
+        ]
+      },
+      {
+        "name": "Custom",
+        "price": "Flexible",
+        "features": [
+          "Todo en Gestión",
+          "Integración con app",
+          "Funcionalidad 3",
+          "Funcionalidad 4"
+        ]
+      }
+    ]
+  

@@ -1,0 +1,30 @@
+[
+  {
+    "question": "¿Cómo se implementa el sitio web para un municipio?",
+    "answer": "La implementación comienza con una reunión para entender las necesidades específicas del municipio. Luego, desarrollamos y probamos el sitio web antes de lanzarlo oficialmente."
+  },
+  {
+    "question": "¿Cuánto tiempo lleva completar el desarrollo del sitio?",
+    "answer": "El plazo promedio es de 4 a 6 semanas, dependiendo de la complejidad y las personalizaciones requeridas."
+  },
+  {
+    "question": "¿Podemos personalizar el diseño y las funcionalidades?",
+    "answer": "Sí, cada sitio web es totalmente personalizable para reflejar la identidad única del municipio y satisfacer sus necesidades específicas."
+  },
+  {
+    "question": "¿Se ofrece asesoramiento durante el proceso?",
+    "answer": "Por supuesto. Ofrecemos asesoramiento continuo para garantizar que el sitio cumpla con los objetivos del municipio y sea fácil de usar."
+  },
+  {
+    "question": "¿Qué incluye el mantenimiento del sitio?",
+    "answer": "El mantenimiento incluye actualizaciones regulares, respaldo de datos, resolución de problemas técnicos y soporte para agregar nuevas funcionalidades."
+  },
+  {
+    "question": "¿Es compatible con dispositivos móviles?",
+    "answer": "Sí, el sitio está diseñado para ser completamente responsivo y funcionar perfectamente en dispositivos móviles, tabletas y computadoras."
+  },
+  {
+    "question": "¿Se pueden integrar redes sociales y otros servicios?",
+    "answer": "Claro. Podemos integrar feeds de redes sociales, calendarios de eventos, y otras herramientas para mejorar la experiencia de los usuarios."
+  }
+]

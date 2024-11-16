@@ -1,0 +1,7 @@
+[
+    { "label": "Beneficios", "link": "#benefits" },
+    { "label": "Planes", "link": "#plans" },
+    { "label": "Clientes", "link": "#testimonials" },
+    { "label": "Preguntas frecuentes", "link": "#faq" },
+    { "label": "Contacto", "link": "#contact" }
+  ]

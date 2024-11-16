@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "text": "\"El equipo de Municipios Digitales nos ayudó a modernizar nuestra presencia en línea. Ahora los ciudadanos tienen acceso a toda la información importante.\"",
+      "author": "María López",
+      "role": "Intendenta de Ciudad Verde",
+      "image": "https://randomuser.me/api/portraits/women/2.jpg"
+    },
+    {
+      "id": 2,
+      "text": "\"Gracias al diseño intuitivo, nuestros ciudadanos están mucho más conectados con las actividades municipales.\"",
+      "author": "Carlos Pérez",
+      "role": "Secretario de Innovación",
+      "image": "https://randomuser.me/api/portraits/men/3.jpg"
+    },
+    {
+      "id": 3,
+      "text": "\"La integración con la app de vecino fue un cambio total para nuestra municipalidad. Altamente recomendado.\"",
+      "author": "Ana Martínez",
+      "role": "Directora de Desarrollo",
+      "image": "https://randomuser.me/api/portraits/women/8.jpg"
+    }
+  ]
+  

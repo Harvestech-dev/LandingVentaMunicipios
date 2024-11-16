@@ -1,0 +1,53 @@
+[{
+        "name": "Opción Básica",
+        "features": {
+          "Página de inicio con mensaje de bienvenida": "Sí",
+          "Formulario de contacto": "Sí",
+          "Noticias y eventos": "No",
+          "Historia y cultura local, galería de fotos y videos": "No",
+          "Sección de noticias destacadas y categorizadas": "No",
+          "Micrositios para eventos": "No",
+          "Portal de transparencia y presupuesto participativo": "No",
+          "Información clave de dependencias y contactos": "No",
+          "Estadísticas clave de gestión, actualizables": "No",
+          "Feed en vivo de redes sociales": "No",
+          "Galería multimedia de imágenes y videos": "No",
+          "Encuestas y votaciones, participación ciudadana": "No"
+        }
+      },
+      {
+        "name": "Opción Intermedia",
+        "features": {
+            "Página de inicio con mensaje de bienvenida": "Sí",
+            "Formulario de contacto": "Sí",
+          "Noticias y eventos": "Sí",
+          "Historia y cultura local, galería de fotos y videos": "Sí",
+          "Sección de noticias destacadas y categorizadas": "Sí",
+          "Micrositios para eventos": "Sí",
+          "Portal de transparencia y presupuesto participativo": "No",
+          "Información clave de dependencias y contactos": "No",
+          "Estadísticas clave de gestión, actualizables": "No",
+          "Feed en vivo de redes sociales": "No",
+          "Galería multimedia de imágenes y videos": "No",
+          "Encuestas y votaciones, participación ciudadana": "No"
+        }
+      },
+      {
+        "name": "Opción Avanzada",
+        "features": {
+          "Página de inicio con mensaje de bienvenida": "Sí",
+          "Noticias y eventos": "Sí",
+          "Formulario de contacto": "Sí",
+          "Historia y cultura local, galería de fotos y videos": "Sí",
+          "Sección de noticias destacadas y categorizadas": "Sí",
+          "Micrositios para eventos": "Sí",
+          "Portal de transparencia y presupuesto participativo": "Sí",
+          "Información clave de dependencias y contactos": "Sí",
+          "Estadísticas clave de gestión, actualizables": "Sí",
+          "Feed en vivo de redes sociales": "Sí",
+          "Galería multimedia de imágenes y videos": "Sí",
+          "Encuestas y votaciones, participación ciudadana": "Sí"
+        }
+      }
+    ]
+  

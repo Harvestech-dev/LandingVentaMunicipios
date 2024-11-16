@@ -1,0 +1,29 @@
+/* Estilos para el botón de "Back to Top" */
+
+/* Posición fija en la esquina inferior derecha */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* Asegura que esté encima de otros elementos */
+    background-color: var(--primary-main, #1976d2); /* Color principal */
+    color: var(--white, #ffffff); /* Color del ícono */
+    border: none;
+    border-radius: 50%; /* Hace el botón redondo */
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destacar el botón */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Hover: Cambia el color al pasar el ratón */
+  .back-to-top:hover {
+    background-color: var(--primary-dark, #1565c0);
+    transform: scale(1.1); /* Hace que el botón crezca ligeramente */
+  }
+  
+  /* Tamaño del ícono dentro del botón */
+  .back-to-top-icon {
+    font-size: 24px; /* Ajusta el tamaño del ícono */
+  }
+  
