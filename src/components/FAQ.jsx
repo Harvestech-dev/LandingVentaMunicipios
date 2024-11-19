@@ -5,6 +5,8 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
+import '../Styles/faq.css'
+
 import faqs from '../Json/FAQ.json'
 function FAQAccordion() {
   const [expanded, setExpanded] = useState(false); // Controla qué sección está expandida

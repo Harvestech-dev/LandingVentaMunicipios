@@ -1,0 +1,55 @@
+/* =======================================================
+   COMPARISON YES / NO
+======================================================= */
+.comparison-table {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .comparison-table h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--color-primary);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th, table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: var(--color-background);
+    font-weight: bold;
+  }
+  
+  table td {
+    background-color: var(--color-secondary-light);
+  }
+  
+  table td:nth-child(even) {
+    background-color: var(--color-secondary);
+  }
+  
+  table td:first-child {
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    table {
+      font-size: 0.9rem;
+    }
+    
+    table th, table td {
+      padding: 10px;
+    }
+  }
+  

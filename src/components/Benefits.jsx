@@ -1,6 +1,8 @@
 import React from "react";
 import { Card, CardContent, Typography } from "@mui/material";
 
+import '../Styles/benefits.css'
+
 import benefits from '../Json/benefits.json'
 
 import StarPurple500RoundedIcon from '@mui/icons-material/StarPurple500Rounded';
@@ -27,7 +29,7 @@ function Benefits() {
   return (
     <div className="section" id="benefits">
       <h2>Beneficios Clave</h2>
-      <div className="container benefit-cards">
+      <div className="benefits-container">
         {benefits.map((benefit, index) => (
           <Card key={index} className="benefit-card">
             <CardContent>

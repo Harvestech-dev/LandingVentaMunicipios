@@ -1,4 +1,7 @@
 import React from 'react';
+
+import '../Styles/carouselFader.css'
+
 import reasons from '../Json/reasons.json'
 function CarouselFader() {
 

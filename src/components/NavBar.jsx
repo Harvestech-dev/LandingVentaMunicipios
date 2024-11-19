@@ -15,6 +15,8 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 
+import '../Styles/navBar.css'
+
 import navItems from '../Json/Navbar.json'
 
 import DarkModeIcon from "@mui/icons-material/DarkMode";

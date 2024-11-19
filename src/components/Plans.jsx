@@ -1,5 +1,7 @@
 import { Button } from "@mui/material";
 
+import '../Styles/plans.css'
+
 import plans from '../Json/plans.json'
 
  function Plans() {
@@ -7,7 +9,7 @@ import plans from '../Json/plans.json'
   return (
     <div className="section" id="plans">
       <h2>Planes a medida</h2>
-      <div className="container plan-cards">
+      <div className="plan-container">
         {plans.map((plan, index) => (
           <div key={index} className="plan-card">
             <h3>{plan.name}</h3>

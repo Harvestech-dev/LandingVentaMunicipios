@@ -2,9 +2,11 @@ import React from 'react';
 import CheckRoundedIcon from '@mui/icons-material/CheckRounded';
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 
+import '../Styles/comparison.css'
+
 import plans from '../Json/comparison.json'
 
-function ComparisonYesNo() {
+function Comparison() {
 
   const featureNames = Object.keys(plans[0].features); // Obtener las características de las primeras opciones
 
@@ -35,4 +37,4 @@ function ComparisonYesNo() {
   );
 }
 
-export default ComparisonYesNo;
+export default Comparison;

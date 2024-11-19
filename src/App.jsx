@@ -8,10 +8,8 @@ import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 import BackToTop from "./components/BackToTop.jsx";
 import NavBar from "./components/NavBar.jsx";
-import ComparisonYesNo from "./components/ComparisonYesNo.jsx";
+import Comparison from "./components/Comparison.jsx";
 import CarouselFader from "./components/CarouselFader.jsx";
-
-import ReasonsToBeOnline from "./components/Reasons.jsx";
 
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -36,7 +34,7 @@ function App() {
         <CarouselFader />
         <Benefits />
         <Plans />
-        <ComparisonYesNo />
+        <Comparison />
         <Testimonials />
         <FAQ />
         <BackToTop />

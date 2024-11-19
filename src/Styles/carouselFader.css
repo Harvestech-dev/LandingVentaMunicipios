@@ -1,0 +1,66 @@
+/* =======================================================
+  CAROUSEL FADE 
+======================================================= */
+.carousel h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: var(--color-primary);
+  
+  }
+  .slide{
+    background-color: var(--color-background);
+    padding:0 40px;
+    border-radius: 16px;
+  }
+  .carousel-item {
+    border-radius: 16px;
+  }
+  
+  .carousel-inner {
+    text-align: center;
+    overflow: hidden;
+    max-width: 70%;
+    margin: 0 auto;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 5%; /* Ajusta el tamaño de los botones */
+    font-size: 2rem; /* Tamaño de las flechas */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    border: none;
+    transition: background-color 0.3s ease; /* Efecto de transición */
+  }
+  
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    background-color: rgba(0, 123, 255, 0.125); /* Efecto al pasar el mouse */
+  }
+  
+  .carousel-control-prev {
+    left: 0;
+  }
+  
+  .carousel-control-next {
+    right: 0;
+  }
+  .carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #007bff; /* Color de los dots */
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #0056b3; /* Color del dot activo */
+  }
+  

@@ -1,0 +1,74 @@
+/* =======================================================
+CONTACT & ABOUT
+======================================================= */
+
+/* General layout styles */
+.contact-with-about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 80vh;
+  gap: 40px;
+  padding: 40px 20px;
+   background-color: var(--background-color);
+   border-radius: 8px;
+}
+
+.contact-form,
+.about-section {
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Contact Form */
+.contact-form {
+  flex: 1;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  padding: 20px; 
+/*   background-color: var(--color-secondary-light); 
+ */  border-radius: 8px; 
+/*   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+ */}
+
+.contact-form h4 {
+  margin-bottom: 20px;
+}
+
+.contact-form-button {
+  margin-top: 20px;
+}
+
+/* About Section */
+.about-section {
+  flex: 1;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  padding: 20px; 
+  text-align: center; 
+/*   background-color: var(--color-secondary-light);
+ */  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1); 
+
+}
+
+.about-section h4 {
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  margin-bottom: 40px;
+}
+
+.about-section-button {
+  text-transform: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .contact-with-about {
+      flex-direction: column;
+  }
+}

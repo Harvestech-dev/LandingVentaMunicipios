@@ -1,31 +1,39 @@
 import React from "react";
 import { Box, Typography, Button, TextField } from "@mui/material";
 
+import '../Styles/contactAbout.css'
+
 function ContactWithAbout() {
   return (
     <Box
-      sx={{
-        display: "flex",
-        flexDirection: { xs: "column", md: "row" },
-        justifyContent: "space-between",
-        alignItems: "center",
-        minHeight: "80vh",
-        gap: 4,
-        padding: "40px 20px",
-      }}
+className='contact-with-about'
+      
     >
+            {/* About Section */}
+            <Box
+className="about-section"
+      >
+        <Typography variant="h4" sx={{ mb: 2 }}>
+          Sobre Harvestech
+        </Typography>
+        <Typography variant="body1" sx={{ mb: 4 }}>
+          Harvestech es una empresa dedicada al desarrollo de soluciones
+          tecnológicas innovadoras, enfocadas en la transformación digital de
+          municipios y organizaciones. Nuestra misión es conectar comunidades
+          mediante herramientas efectivas y fáciles de usar.
+        </Typography>
+        <Button
+          variant="outlined"
+          color="primary"
+          href="https://harvestech.dev"
+          target="_blank"
+        >
+          Visítanos en harvestech.dev
+        </Button>
+      </Box>
       {/* Contact Form */}
       <Box
-        sx={{
-          flex: 1,
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          padding: "20px",
-          backgroundColor: "var(--color-secondary-light)",
-          borderRadius: "8px",
-          boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-        }}
+className="contact-form"
       >
         <Typography variant="h4" sx={{ mb: 2 }}>
           Contáctanos
@@ -56,35 +64,7 @@ function ContactWithAbout() {
         </Button>
       </Box>
 
-      {/* About Section */}
-      <Box
-        sx={{
-          flex: 1,
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          padding: "20px",
-          textAlign: "center",
-        }}
-      >
-        <Typography variant="h4" sx={{ mb: 2 }}>
-          Sobre Harvestech
-        </Typography>
-        <Typography variant="body1" sx={{ mb: 4 }}>
-          Harvestech es una empresa dedicada al desarrollo de soluciones
-          tecnológicas innovadoras, enfocadas en la transformación digital de
-          municipios y organizaciones. Nuestra misión es conectar comunidades
-          mediante herramientas efectivas y fáciles de usar.
-        </Typography>
-        <Button
-          variant="outlined"
-          color="primary"
-          href="https://harvestech.dev"
-          target="_blank"
-        >
-          Visítanos en harvestech.dev
-        </Button>
-      </Box>
+
     </Box>
   );
 }

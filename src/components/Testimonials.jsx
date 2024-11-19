@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../Styles/testimonials.css'
+
 import testimonials from '../Json/testimonials.json'
 function Testimonials() {
 

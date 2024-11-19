@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Typography, Link, IconButton } from "@mui/material";
 import { Facebook, Twitter, Instagram, LinkedIn } from "@mui/icons-material";
 
+import '../Styles/footer.css'
 function Footer() {
   return (
     <Box
